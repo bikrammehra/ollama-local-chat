@@ -19,26 +19,23 @@
    git clone https://github.com/yourusername/ollama-streamlit-chat.git
 Navigate to project directory:
 
-bash
-Copy
-cd ollama-streamlit-chat
+```bash
+   cd ollama-streamlit-chat
 Install dependencies:
 
-bash
-Copy
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+
 🚀 Usage
 Running the Application
 Start Ollama in a separate terminal:
 
-bash
-Copy
-ollama serve
+```bash
+   ollama serve
 Launch the Streamlit app:
 
-bash
-Copy
-streamlit run app.py
+```bash
+   streamlit run app.py
 Open your browser to http://localhost:8501
 
 📂 Project Structure
@@ -75,19 +72,16 @@ top_p
 Common Issues
 🔌 Connection Errors: Ensure Ollama is running in background
 
-bash
-Copy
-ps aux | grep ollama
+```bash
+   ps aux | grep ollama
 📦 Missing Models: Verify installed models
 
-bash
-Copy
-ollama list
+```bash
+   ollama list
 🐍 Python Dependencies: Confirm package versions
 
-bash
-Copy
-pip freeze | grep -E 'streamlit|requests'
+```bash
+   pip freeze | grep -E 'streamlit|requests'
 🤖 Supported Models
 Model Name	Description
 llama2	Meta's versatile LLM
