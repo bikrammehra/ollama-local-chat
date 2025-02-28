@@ -97,7 +97,8 @@ Common Issues
 |mistral	|High-quality English/French model|
 |codellama	|Specialized for programming tasks|
 |phi3	|Lightweight Microsoft model|
-📚 Explore more models at Ollama Library|
+
+📚 Explore more models at Ollama Library
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
