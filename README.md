@@ -15,17 +15,17 @@
 ## 🛠️ Installation
 
 1. Clone the repository:
-```bash
+```
    git clone https://github.com/yourusername/ollama-streamlit-chat.git
 ```
 Navigate to project directory:
 
-```bash
+```
    cd ollama-streamlit-chat
 ```
 Install dependencies:
 
-```bash
+```
    pip install -r requirements.txt
 ```
 
@@ -33,12 +33,12 @@ Install dependencies:
 Running the Application
 Start Ollama in a separate terminal:
 
-```bash
+```
    ollama serve
 ```
 Launch the Streamlit app:
 
-```bash
+```
    streamlit run app.py
 ```
 Open your browser to http://localhost:8501
@@ -51,44 +51,36 @@ Open your browser to http://localhost:8501
 ```
 🔧 Customization
 Model Management
-Add new models: ollama pull <model-name>
-
-List installed models: ollama list
+   - Add new models: ```bash ollama pull <model-name>```
+   - List installed models: ollama list
 
 UI Customization
-Edit app.py to modify:
-
-Page title/icon (st.set_page_config)
-
-Color scheme (using Streamlit themes)
-
-Chat interface layout
-
+   - Edit app.py to modify:
+      - Page title/icon (**st.set_page_config**)
+      - Color scheme (using Streamlit themes)
+      - Chat interface layout
 Model Parameters
-Modify the API request in app.py to adjust:
-
-temperature
-
-max_tokens
-
-top_p
+   - Modify the API request in app.py to adjust:
+      - temperature
+      - max_tokens
+      - top_p
 
 🚨 Troubleshooting
 Common Issues
 🔌 Connection Errors: Ensure Ollama is running in background
 
-```bash
-   ps aux | grep ollama
+```
+   ollama serve
 ```
 📦 Missing Models: Verify installed models
 
-```bash
+```
    ollama list
 ```
 🐍 Python Dependencies: Confirm package versions
 
-```bash
-   pip freeze | grep -E 'streamlit|requests'
+```
+   pip list | findstr "streamlit requests"
 ```
 🤖 Supported Models
 |Model Name	|Description|
