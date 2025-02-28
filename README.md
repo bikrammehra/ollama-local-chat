@@ -97,4 +97,8 @@ Common Issues
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 💡 Pro Tip: Add export OLLAMA_HOST=127.0.0.1:11434 to your .bashrc for persistent Ollama configuration!
+## 💡 Pro Tip: Set persistent environment variable in PowerShell:
+
+```powershell 
+[System.Environment]::SetEnvironmentVariable('OLLAMA_HOST','127.0.0.1:11434','Machine')
+```
