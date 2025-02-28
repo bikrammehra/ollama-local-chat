@@ -29,7 +29,7 @@ Install dependencies:
    pip install -r requirements.txt
 ```
 
-🚀 Usage
+## 🚀 Usage
 Running the Application
 Start Ollama in a separate terminal:
 
@@ -43,13 +43,13 @@ Launch the Streamlit app:
 ```
 Open your browser to http://localhost:8501
 
-📂 Project Structure
+## 📂 Project Structure
 ```
 ├── app.py             # Main application logic
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation
 ```
-🔧 Customization
+## 🔧 Customization
 Model Management
    - Add new models: ```bash ollama pull <model-name>```
    - List installed models: ollama list
@@ -65,7 +65,8 @@ Model Parameters
       - max_tokens
       - top_p
 
-🚨 Troubleshooting
+## 🚨 Troubleshooting
+
 Common Issues
 🔌 Connection Errors: Ensure Ollama is running in background
 
@@ -82,7 +83,8 @@ Common Issues
 ```
    pip list | findstr "streamlit requests"
 ```
-🤖 Supported Models
+
+## 🤖 Supported Models
 |Model Name	|Description|
 |-----------|:-----------------------------:|
 |llama2	|Meta's versatile LLM|
@@ -92,7 +94,7 @@ Common Issues
 
 📚 Explore more models at Ollama Library
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-💡 Pro Tip: Add export OLLAMA_HOST=127.0.0.1:11434 to your .bashrc for persistent Ollama configuration!
+## 💡 Pro Tip: Add export OLLAMA_HOST=127.0.0.1:11434 to your .bashrc for persistent Ollama configuration!
