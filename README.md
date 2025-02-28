@@ -15,9 +15,9 @@
 ## 🛠️ Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/yourusername/ollama-streamlit-chat.git
-   ```
+```
 Navigate to project directory:
 
 ```bash
@@ -25,7 +25,7 @@ Navigate to project directory:
 ```
 Install dependencies:
 
-   ```bash
+```bash
    pip install -r requirements.txt
 ```
 
